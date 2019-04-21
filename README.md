@@ -1,6 +1,6 @@
 # Progress Circle
 
-This is a progress bar implemented as circle
+This is a progress bar implemented as circle. The inner area is editable and presented as RelativeLayout, so you can put anything inside
 
 ![](https://github.com/p2lem8dev/progress-circle/blob/master/phone.jpg)
 ![](https://github.com/p2lem8dev/progress-circle/blob/master/phone2.jpg)
@@ -123,3 +123,12 @@ override fun onProgressChange(progress: Float, time: Int) {
     mediaPlayer.seekTo(time * 1000)
 }
 </pre>
+
+#### Gestures
+
+<table>
+    <tr>
+        <td>Move (forward/backward)</td>
+        <td>Move finger from (let-right) (right-left). The gesture acceleration effect move speed. So short quick swipe will move the progress more then long slow</td>
+    </tr>
+</table>
