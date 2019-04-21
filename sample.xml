@@ -1,0 +1,58 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+
+    <com.p2lem8dev.ui.views.ProgressCircle
+            android:id="@+id/progress_circular"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:progress="65"
+            android:background="#000"
+            app:primary_color="#DDC821"
+            app:secondary_color="#964B12"
+            app:radius="300dp"
+            app:progress_bar_size="10dp"
+            app:outline="true"
+            app:outline_color="#20CFBDDE"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/image_1"
+                android:layout_margin="40dp"/>
+        <TextView
+                android:id="@+id/progress_circular_value"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="67%"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="#222"
+                android:background="#FFF"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="135dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+        />
+    </com.p2lem8dev.ui.views.ProgressCircle>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/progress_circular"
+            android:layout_marginTop="40dp"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:text="Circle Progress View"
+    />
+
+    <!-- make wave-like linear _progress bar -->
+
+</RelativeLayout>
