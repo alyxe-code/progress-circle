@@ -3,6 +3,7 @@
 This is a progress bar implemented as circle
 
 ![](https://github.com/p2lem8dev/progress-circle/blob/master/phone.jpg)
+![](https://github.com/p2lem8dev/progress-circle/blob/master/phone2.jpg)
 
 #### Attributes
 
