@@ -1,6 +1,10 @@
 # Progress Circle
 
-This is a progress bar implemented as circle. The inner area is editable and presented as RelativeLayout, so you can put anything inside
+This is a progress bar implemented as circle. The inner area is editable and presented as RelativeLayout, so you can put anything inside.
+
+![source (kotlin)](https://github.com/p2lem8dev/progress-circle/blob/master/ProgressCircle.kt)
+![sample (xml)](https://github.com/p2lem8dev/progress-circle/blob/master/sample.xml)
+
 
 ![](https://github.com/p2lem8dev/progress-circle/blob/master/phone.jpg)
 ![](https://github.com/p2lem8dev/progress-circle/blob/master/phone_2.jpg)
